@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+body {
+  background-color: rgb(34, 34, 34);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.classdiv {
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.bordure {
+  width: 20%;
+  height: 100%;
+  background-color: grey;
+  display: inline;
+}
+
+.newbordure {
+  width: 80%;
+}
+
+.bordure .save {
+  display: inline;
+}
+
+.App {
+  background-color: grey;
+  border: 0;
+  height: 100px;
+  width: 78%;
+  margin: 10px;
+  color: red;
+  padding: 5px;
+}
+
+.itemtitle {
+  color: red;
+  font-weight: bold;
+}
+
+.App:focus {
+  outline: none;
+}
+
+#notepad {
+  display: block;
+  height: 70%;
+}
+
+.Apptext {
+  background-color: grey;
+  border: 0;
+  height: 400px;
+  width: 78%;
+  margin: 10px;
   color: white;
+  padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.Apptext:focus {
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.save {
+  background-color: rgb(255, 0, 64);
+  height: 50px;
+  width: 150px;
+  margin: 10px;
+  display: block;
+  color: white;
 }
